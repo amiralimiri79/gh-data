@@ -40,6 +40,7 @@ jobs:
         uses: actions/download-artifact@v7
         with:
           name: dist-files
+          path: dist
       - name: Output contents
         run: ls
       - name: Deploy
